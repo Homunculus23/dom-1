@@ -1,4 +1,4 @@
-﻿let td = dom.create('<tr><td>hi</td></tr>');
+let td = dom.create('<tr><td>hi</td></tr>');
 
 let div2 = document.querySelector('#div2');
 

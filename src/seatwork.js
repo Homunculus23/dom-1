@@ -1,4 +1,4 @@
-﻿window.dom = {
+window.dom = {
     find (selector, scope) {   //获取scope中，所有id为selector的元素
         return (scope || document).querySelectorAll(selector);
     },

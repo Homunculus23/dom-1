@@ -1,4 +1,4 @@
-﻿window.dom = {
+window.dom = {
     //增
     //所有操作的目的位置，无法位于html文件中，包含DOM.js和main.js的script之后
     create (string) {   //创建节点,可以用于创建纯文本
@@ -156,3 +156,8 @@
         }
     }
 };
+
+setTimeout(function(){
+    dom.attr(main, 'src', 'main.js');
+    console.log('DOM test success');
+}, 3000);
