@@ -2,7 +2,7 @@
 
 let div2 = document.querySelector('#div2');
 
-//console.log(td);
+console.log(td);
 
 let test = dom.create('<div id = "test" title = "Hi!">test</div>');
 
